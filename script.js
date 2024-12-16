@@ -109,7 +109,7 @@ const answersDiv = document.querySelectorAll(".answer");
  time--;
         } else {
             // if time finishes means less than 0
-            checkAnswer();
+            checkAnswer();//localStorage
         }
     }, 1000);
  };
