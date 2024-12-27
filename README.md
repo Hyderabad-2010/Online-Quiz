@@ -1,5 +1,24 @@
 # project 3: Online Quiz 
 
+
+![alt text](image.png)
+>Build Online Quiz App with 4 choice of options for each attempt
+
 ## Project Brief
-A personal online portfolio is a website created to showcase your coding/programming skills, experiences, and personal projects. It is an online resume of your professional accomplishments and abilities which provides your prospective client or employer with an overview of the projects you have worked on and your skill level.
- 
+The online quiz would be a website where users can answer a series of questions and receive score on their performance. The quiz would have questions with multiple-choice options, and navigation buttons (like 'Next' and 'Submit'). Each question could be displayed on its own page or section. 
+
+####Technologies
+
+- HTML
+- CSS
+- Javascript
+- Markdown
+- Visual Studio Code
+
+#### API Reference
+`````javascript
+https://opentdb.com/api.php?amount=${num}&category=${cat}&difficulty=${diff}&type=multiple;
+`````
+
+## Reference
+- website - https://hyderabad-2010.github.io/Online-Quiz/
