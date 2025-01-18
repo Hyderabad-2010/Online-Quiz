@@ -112,7 +112,7 @@ const answersDiv = document.querySelectorAll(".answer");
             checkAnswer();//localStorage
         }
     }, 1000);
- };
+ }; 
 
  submitBtn.addEventListener("click", () => {
     checkAnswer();
@@ -152,7 +152,7 @@ const answersDiv = document.querySelectorAll(".answer");
     // what if nothing selected and time finishes
     // lets just add correct class on correct answer
     else {
-        const correctAnswer = document.querySelectorAll(".answer").forEach((answer) => {
+        document.querySelectorAll(".answer").forEach((answer) => {
             if (
                 answer.querySelector(".text").innerHTML ===
                 questions[currentQuestion - 1].correct_answer
@@ -169,7 +169,7 @@ answerDiv.forEach((answer) => {
     answer.classList.add("checked");
     //add checked class on all answer as we check for it when on click answer if its present do nothing
     // also when checked lets dont add hover effect on checkbox
-});
+}); 
 
 // after submit show next btn go to next question
 submitBtn.style.display = "none";
