@@ -23,8 +23,8 @@ const progressBar = document.querySelector(".progress-bar"),
 
     const startQuiz = () => {
         const num = numQuestions.value;
-        cat = category.value;
-        diff = difficulty.value;
+        const cat = category.value;
+        const diff = difficulty.value;
 // apl url
 const url = `https://opentdb.com/api.php?amount=${num}&category=${cat}&difficulty=${diff}&type=multiple`;
   
