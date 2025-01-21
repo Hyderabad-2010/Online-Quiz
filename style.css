@@ -33,6 +33,12 @@ body {
         margin-bottom: 50px;
     }
 
+    .rules {
+        color: aliceblue;
+        margin-bottom: 20px;
+        border: 1px solid white;
+    }
+    
     label {
        display: block;
        font-size: 12px;
@@ -170,9 +176,10 @@ body {
     opacity: 0;
 } 
 
-.answer:hover:not(.checked) .checkbox, .answer.selected .checkbox {
+.answer:hover:not(.checked) .checkbox, .answer.selected .checkbox{
     background-color: #0c80ef;
-    border-color: #0c80ef;
+    border-color: #0c2aef;
+
 }
 
 .answer.selected .checkbox .icon {
@@ -212,7 +219,7 @@ body {
     
 
 /*    Making Responsive        */
-@media (max-width:468) {
+@media (max-width:468px) {
     .container {
         min-height: 100vh;
         max-width: 100%;
@@ -221,5 +228,3 @@ body {
 }
 
 /*   UI complete, let head to js       */
-
-
